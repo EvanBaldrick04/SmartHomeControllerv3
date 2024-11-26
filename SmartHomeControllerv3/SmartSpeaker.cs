@@ -28,7 +28,7 @@ namespace SmartHomeController
         // Constructor
         public SmartSpeaker(int speakerDeviceID, string speakerDeviceName, int speakerVolume) : base(speakerDeviceID, speakerDeviceName)
         {
-            this.Volume = speakerVolume;
+            this.Volume = speakerVolume; 
 
         }
 
