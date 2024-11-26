@@ -32,5 +32,12 @@ namespace SmartHomeController
 
         }
 
+        public override void getStatus()
+        {
+            base.getStatus();
+            Console.WriteLine("This is a Smart Speaker");
+            Console.WriteLine($"Volume: {Volume}, Is Playing: {(IsPlaying ? "Yes" : "No")}");
+        }
+
     }
 }
